@@ -14,6 +14,6 @@ class Celular:
     def cortar_llamada(self):
         return "Cortando llamada..."
 
-Celular = Celular("Samsung", "Galaxy S21", "12 MP")
+celular = Celular("Samsung", "Galaxy S21", "12 MP")
 
-Celular.llamar()
+celular.llamar()
