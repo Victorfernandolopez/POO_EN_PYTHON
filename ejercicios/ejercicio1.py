@@ -21,7 +21,7 @@ edad = input("ingrese su edad: ").lower()
 grado = input("ingrese su grado: ").lower()
 
 #instanciar clase
-estudiante1 = estudiante(nombre,edad,grado)
+estudiante1 = Estudiante(nombre,edad,grado)
 
 #mostrar datos de la clase creada
 print(f"nombre: {estudiante1.nombre}")
